@@ -1,10 +1,18 @@
-h1{
-    color: red;
-    text-align: center;
+/*********************
+
+COMMON
+
+*********************/
+
+body{
+    font-family: "monospace",sans-setive;
 }
 
-h2{
-    color:#8a2be2;
-    border: solid 2px black;
-    text-align: center;
+.font-primary{
+    color: #00abae;
+}
+
+.title-icon{
+    font-size: 20px;
+    font-weight: bold;
 }
