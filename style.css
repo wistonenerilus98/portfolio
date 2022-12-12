@@ -17,6 +17,20 @@ body{
     font-weight: bold;
 }
 
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: #000 !important;
+}
+
 /*********************
 
 ABOUT
@@ -40,16 +54,20 @@ ABOUT
 }
 
 #about .vocation {
-    font-size: 17px;
+    font-size: 20px;
     color: #A8A8AB;
     margin-bottom:10px;
 }
 
 #about .skills {
-    font-size: 14px;
+    font-size: 17px;
     color: #00ABAE;
     margin-bottom:10px;
     font-weight: 13% bold;
+}
+
+p {
+    font-weight: bold;
 }
 
 #about .email {
@@ -65,4 +83,27 @@ ABOUT
 
 #about .icons a{
     color: rgb(0, 0, 0);
+}
+
+/*********************
+
+PROJECT
+
+*********************/
+
+#project {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project  h2 {
+    text-align: center;
+}
+
+#project .card img {
+    width: 100%;
+}
+
+#project .card-title {
+    font-weight: bold;
 }
